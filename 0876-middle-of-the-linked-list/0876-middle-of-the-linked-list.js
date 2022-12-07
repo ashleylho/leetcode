@@ -29,25 +29,4 @@ var middleNode = function(head) {
     }
     return copy
     
-    
-//     var counter = 0;
-//     var result;
-//     var middle;
-//     if (head !== null) {
-//         counter++;
-//         head = head.next
-//     } 
-    
-//     if (counter % 2 === 0) {
-//         middle = ((counter/2) + 1)
-//     } else {
-//         middle = Math.ceil(counter/2)
-//     }
-
-
-//     while (middle >= 0) {
-//         middle--
-//         result = head.next;
-//     }
-//     return result
 };
